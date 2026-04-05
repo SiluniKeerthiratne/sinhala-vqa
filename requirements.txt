@@ -1,0 +1,27 @@
+# Core PyTorch (CUDA 12.1 recommended)
+torch>=2.0.0,<3.0.0
+
+# Hugging Face Ecosystem
+transformers>=4.40.0
+datasets>=2.14.0
+huggingface-hub>=0.18.0
+peft>=0.7.0
+bitsandbytes>=0.41.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# Text Evaluation Metrics
+bert-score>=0.3.13
+nltk>=3.8.1
+rouge-score>=0.1.2
+sacrebleu>=2.3.0
+
+# Utilities
+tqdm>=4.66.0
+
+# Optional: Notebook / Translation support
+jupyter>=1.0.0
+ipython>=8.0.0
+google-genai>=0.3.0
+requests>=2.31.0
